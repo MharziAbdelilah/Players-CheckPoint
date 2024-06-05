@@ -1,0 +1,75 @@
+.flip-card {
+  background-color: transparent;
+  width: 280px;
+  height: 400px;
+  perspective: 1000px;
+  margin: 10px;
+}
+
+.flip-card-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+
+.flip-card-front {
+  background-color: #fff;
+  color: black;
+  z-index: 1; 
+}
+
+.flip-card-back {
+  background-color: #f7f7f7;
+  color: rgb(0, 0, 0);
+  transform: rotateY(180deg);
+  z-index: 2; 
+}
+
+.card-front {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.card-media {
+  width: 100%;
+  height: 100%;
+}
+
+.card-content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  color: white;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.player-name {
+  color: white;
+  font-size: 1.2rem;
+}
+
+
+.cardBack{
+  padding:50px 0;
+  background-color: aqua;
+}

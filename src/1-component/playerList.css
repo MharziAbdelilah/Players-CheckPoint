@@ -1,0 +1,17 @@
+ .container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets-eu-01.kc-usercontent.com/1293c890-579f-01b7-8480-902cca7de55e/f1d605d7-ad52-42b7-b496-e1a50f6446c4/Comunicato-Ufficiale-v1-19-20-WebHP-2.png');
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size: cover;      /* Scales the image to cover the entire element */
+  background-position: center; /* Centers the image */
+}
+
+.content{
+  width: 80%;
+  padding: 2rem;
+  border-radius: 25px;
+}
+
