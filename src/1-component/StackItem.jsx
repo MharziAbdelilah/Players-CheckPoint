@@ -7,11 +7,11 @@ function StackItem({pro , id}) {
   return (
   <Box  sx={{pt:"3px"}}>
       <Stack direction={"row"} alignItems={"center"} justifyContent={"space-between"} >
-      <Typography sx={{}} gutterBottom variant="p" component="p" fontWeight={600}>
+      <Typography  gutterBottom variant="p" component="p" fontWeight={700}>
         {id} : 
       </Typography>
     
-      <Typography gutterBottom variant="p" color={"#D50000"} component="p" fontWeight={600}>
+      <Typography fontSize={20} gutterBottom variant="p"  component="p" fontWeight={600}>
       {pro}
       </Typography>
       </Stack>

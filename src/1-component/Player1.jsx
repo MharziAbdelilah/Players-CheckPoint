@@ -28,16 +28,16 @@ function Player1({ Name, age, team, nationality, jerseyNumber, imageUrl }) {
           </Card>
         </div>
         <div className="flip-card-back">
-          <Card className='cardBack' sx={{ borderRadius: "10px", width: 280, height: 300, margin: '10px', }}>
-            <CardContent>
+          <Card className='cardBack' sx={{ borderRadius: "10px", width: 280, height: 300, margin: '10px' }}>
+            <CardContent sx={{pt:"70px"}}>
               <Typography gutterBottom variant="h5" component="div">
                 {Name}
               </Typography>
               <Box >
-                <Typography variant="body2">Team: {team}</Typography>
-                <Typography variant="body2">Nationality: {nationality}</Typography>
-                <Typography variant="body2">Jersey Number: {jerseyNumber}</Typography>
-                <Typography variant="body2">Age: {age}</Typography>
+                <Typography pt={2} fontWeight={600}  fontSize={15}variant="body2">Team: {team}</Typography>
+                <Typography pt={2} fontWeight={600} fontSize={15} variant="body2">Nationality: {nationality}</Typography>
+                <Typography pt={2} fontWeight={600} fontSize={15} variant="body2">Jersey Number: {jerseyNumber}</Typography>
+                <Typography  pt={2} fontWeight={600}  fontSize={15} variant="body2">Age: {age}</Typography>
               </Box>
             </CardContent>
           </Card>

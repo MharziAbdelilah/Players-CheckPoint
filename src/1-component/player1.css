@@ -68,8 +68,7 @@
   font-size: 1.2rem;
 }
 
-
-.cardBack{
-  padding:50px 0;
-  background-color: aqua;
+.flip-card-back .cardBack{
+  background: conic-gradient(from 0deg, black, #D50000);
+  color: #fff;
 }

@@ -10,9 +10,9 @@ function PlayerList() {
   return (
     <Box className="container">
       <Box className="content">
-        <Stack direction={"row"} flexWrap={"wrap"} justifyContent={"space-between"}>
+        <Stack  direction={"row"} flexWrap={"wrap"} justifyContent={"space-between"}>
           {Players.map((player1) => (
-            <Player1 key={player1.Name} {...player1} />
+            <Player1  key={player1.Name} {...player1} />
           ))}
         </Stack>
       </Box>
